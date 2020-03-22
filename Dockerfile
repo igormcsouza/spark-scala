@@ -29,6 +29,9 @@ ENV PATH="$PATH:$SPARK_HOME/bin:$SPARK_HOME/sbin"
 
 RUN pip3 install jep jedi pyspark
 
+# Install git
+RUN apt update && apt install -y git
+
 COPY requirements.txt /opt/requirements.txt
 RUN pip3 install -r /opt/requirements.txt
 
