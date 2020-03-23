@@ -1,2 +1,7 @@
 # Projects very big folders
 data/
+
+# Chunk folders
+.ipynb_checkpoints/
+.devcontainer/
+.vscode/
