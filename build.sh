@@ -1,1 +1,1 @@
-docker build . -t igormcsouza/ml:scala-spark-python3-polynote
+docker build . -t igormcsouza/ml:learning-scala
